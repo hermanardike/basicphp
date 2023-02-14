@@ -1,9 +1,15 @@
 <?php
-function sayHello($name)
+function sayHello($name , $lastname)
 {
-    echo "Hello $name" . PHP_EOL;
-
+    echo "Hello $name $lastname" .  PHP_EOL;
 }
 
-sayHello("eko");
-sayHello("kucing");
+sayHello("Nyoman", "Herman");
+
+
+function sum($first, $last)
+{
+        $total = $first + $last;
+        echo "Total $first + $last = $total"  . PHP_EOL;
+}
+sum(100,100);
