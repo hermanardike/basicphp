@@ -1,5 +1,5 @@
 <?php
-function getFinalValue (int $value)
+function getFinalValue (int $value) : string
 {
     if ($value >= 80) {
         return "A";
